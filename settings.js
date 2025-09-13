@@ -9,7 +9,7 @@ SESSION_ID: process.env.SESSION_ID || "WcBlTTKa#yFKs735QHc4_98FdrfS6W_nJmXdhpqKI
 PREFIX: process.env.PREFIX || ".",
 MODE: process.env.MODE || "public",  //public | private | inbox | group
 OWNER_NUMBER: process.env.OWNER_NUMBER || "917001141605",
-DEV: process.env.DEV || "94779062397",
+DEV: process.env.DEV || "917001141605",
 LANG: process.env.LANG || "EN", // EN | SI
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
@@ -33,7 +33,7 @@ READ_MESSAGE: process.env.READ_MESSAGE || "false",
 READ_CMD: process.env.READ_CMD || "true",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 ANTI_VV: process.env.ANTI_VV || "true",
-ANTI_DELETE: process.env.ANTI_DELETE || "true",
+ANTI_DELETE: process.env.ANTI_DELETE || "false",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same",  // inbox | same
 WELCOME: process.env.WELCOME || "true",
 GOODBYE: process.env.GOODBYE || "true",
